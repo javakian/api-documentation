@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 
 RUN apt-get update
 RUN apt-get install -yq ruby ruby-dev build-essential git
